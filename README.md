@@ -58,6 +58,36 @@ The game combines a full avatar catalog and body editor with a fast fashion roun
 
 `Roblox Studio` `Luau` `UI/UX` `Product Design` `Game Systems`
 
+## Web project
+
+### ONYX <sup><sub>PERSONAL PROJECT</sub></sup>
+
+**ONYX** is a cinematic media-discovery interface I built to explore richer web-app UX beyond Roblox — including personalised browsing, search, watch history, actor profiles and content metadata.
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="./Home.png" alt="ONYX home and media discovery interface" width="100%" />
+      <br />
+      <strong>Home & discovery</strong>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="./Search.png" alt="ONYX search interface" width="100%" />
+      <br />
+      <strong>Search & recent activity</strong>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="./ActorProfile.png" alt="ONYX actor profile interface" width="100%" />
+      <br />
+      <strong>Profiles & metadata</strong>
+    </td>
+  </tr>
+</table>
+
+The project focuses on **information hierarchy, cinematic presentation, responsive navigation and dense data-driven UI** while keeping the experience visually restrained.
+
+`TypeScript` `React` `API Integration` `UI/UX` `VS Code`
+
 ## Other work
 
 <table>
@@ -109,10 +139,10 @@ The game combines a full avatar catalog and body editor with a fast fashion roun
 
 - Interfaces that are immediately understandable.
 - Mobile support that feels intentional rather than adapted later.
-- Systems that remain manageable as a game grows.
-- Strong game feel without unnecessary visual noise.
-- Treating retention, monetisation and polish as parts of the same product.
+- Systems that remain manageable as a product grows.
+- Strong visual identity without unnecessary noise.
+- Treating retention, usability and polish as parts of the same product.
 
 <p align="center">
-  <sub>Building Roblox games with equal attention to code, design and product.</sub>
+  <sub>Building games and digital products with equal attention to code, design and product.</sub>
 </p>
