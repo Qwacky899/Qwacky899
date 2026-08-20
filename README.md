@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./hero.svg" alt="Harry Smith — Roblox Developer" width="100%" />
+  <img src="./assets/hero.svg" alt="Harry Smith — Roblox Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -13,11 +13,11 @@
 
 ## About
 
-I'm **Harry Smith** (`Qwacky899`), a Roblox developer focused on building polished games from both the engineering and product side.
+I'm **Harry Smith** (`Qwacky899`), a UK-based Roblox developer focused on building polished games from both the engineering and product side.
 
 I work across **game systems, UI/UX, gameplay design, 3D, web tooling and product strategy** — with most of my current work centred around creating Roblox experiences that feel polished, clear and commercially strong.
 
-## Featured project
+## Featured work
 
 ### STYLE IT <sup><sub>IN DEVELOPMENT</sub></sup>
 
@@ -28,56 +28,71 @@ I handle the project across **full-stack Roblox development, systems architectur
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="./Catalog.png" alt="STYLE IT catalog and avatar customisation" width="100%" />
+      <a href="./assets/style-it/catalog.png">
+        <img src="./assets/style-it/catalog.png" alt="STYLE IT catalog and avatar customisation" width="100%" />
+      </a>
       <br />
       <strong>Catalog & avatar customisation</strong>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="./RunwayVoting.png" alt="STYLE IT runway voting interface" width="100%" />
+      <a href="./assets/style-it/runway-voting.png">
+        <img src="./assets/style-it/runway-voting.png" alt="STYLE IT runway voting interface" width="100%" />
+      </a>
       <br />
       <strong>Runway & live voting</strong>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="./ThemeVoting.png" alt="STYLE IT theme voting interface" width="100%" />
+      <a href="./assets/style-it/theme-voting.png">
+        <img src="./assets/style-it/theme-voting.png" alt="STYLE IT theme voting interface" width="100%" />
+      </a>
       <br />
       <strong>Player-driven theme voting</strong>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="./GlobalFits.png" alt="STYLE IT Global Fits outfit discovery" width="100%" />
+      <a href="./assets/style-it/global-fits.png">
+        <img src="./assets/style-it/global-fits.png" alt="STYLE IT Global Fits outfit discovery" width="100%" />
+      </a>
       <br />
       <strong>Global Fits & outfit discovery</strong>
     </td>
   </tr>
 </table>
 
-The game combines a full avatar catalog and body editor with a fast fashion round loop, player voting, results, theme selection and a social outfit publishing system.
+The game combines a full avatar catalog and body editor with a fast fashion round loop, player voting, results, theme selection and a social outfit-publishing system.
 
 **Current focus:** improving the speed and clarity of the core loop, polishing desktop and mobile UX, and building systems that can support progression, content updates and long-term retention.
 
 `Roblox Studio` `Luau` `UI/UX` `Product Design` `Game Systems`
 
-## Web project
+---
 
-### ONYX <sup><sub>PERSONAL PROJECT</sub></sup>
+### ONYX <sup><sub>PERSONAL WEB PROJECT</sub></sup>
 
 **ONYX** is a cinematic media-discovery interface I built to explore richer web-app UX beyond Roblox — including personalised browsing, search, watch history, actor profiles and content metadata.
 
+<p align="center">
+  <a href="./assets/onyx/home.png">
+    <img src="./assets/onyx/home.png" alt="ONYX home and media-discovery interface" width="100%" />
+  </a>
+  <br />
+  <strong>Home & content discovery</strong>
+</p>
+
 <table>
   <tr>
-    <td width="33%" align="center" valign="top">
-      <img src="./Home.png" alt="ONYX home and media discovery interface" width="100%" />
-      <br />
-      <strong>Home & discovery</strong>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <img src="./Search.png" alt="ONYX search interface" width="100%" />
+    <td width="50%" align="center" valign="top">
+      <a href="./assets/onyx/search.png">
+        <img src="./assets/onyx/search.png" alt="ONYX search interface" width="100%" />
+      </a>
       <br />
       <strong>Search & recent activity</strong>
     </td>
-    <td width="33%" align="center" valign="top">
-      <img src="./ActorProfile.png" alt="ONYX actor profile interface" width="100%" />
+    <td width="50%" align="center" valign="top">
+      <a href="./assets/onyx/actor-profile.png">
+        <img src="./assets/onyx/actor-profile.png" alt="ONYX actor profile interface" width="100%" />
+      </a>
       <br />
       <strong>Profiles & metadata</strong>
     </td>
@@ -135,14 +150,12 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=F472B6)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=A78BFA)
 
-## What I care about
+## Current direction
 
-- Interfaces that are immediately understandable.
-- Mobile support that feels intentional rather than adapted later.
-- Systems that remain manageable as a product grows.
-- Strong visual identity without unnecessary noise.
-- Treating retention, usability and polish as parts of the same product.
+- Turning **STYLE IT** into a launch-ready Roblox product.
+- Building reusable systems and a stronger production pipeline.
+- Expanding into web products and tools that support a long-term independent studio.
 
 <p align="center">
-  <sub>Building games and digital products with equal attention to code, design and product.</sub>
+  <a href="https://qwacky899.github.io/Portfolio/"><strong>Explore more of my work →</strong></a>
 </p>
