@@ -15,17 +15,46 @@
 
 I'm **Harry Smith** (`Qwacky899`), a Roblox developer focused on building polished games from both the engineering and product side.
 
-I work across **game systems, UI/UX, gameplay design, 3D, web tooling and product strategy** — with most of my current work centred around creating commercially viable Roblox experiences that still feel genuinely well-made.
+I work across **game systems, UI/UX, gameplay design, 3D, web tooling and product strategy** — with most of my current work centred around creating Roblox experiences that feel polished, clear and commercially strong.
 
 ## Featured project
 
 ### STYLE IT <sup><sub>IN DEVELOPMENT</sub></sup>
 
-**STYLE IT** is a social fashion game built around avatar customisation, rating, competition and fast cross-platform interaction.
+**STYLE IT** is a social fashion game built around avatar customisation, themed rounds, live voting and outfit discovery.
 
 I handle the project across **full-stack Roblox development, systems architecture, UI/UX, product direction and launch strategy**.
 
-The current focus is on making the game feel fast, polished and intuitive on both desktop and mobile, while building systems that can support progression, content updates and long-term growth.
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="./Catalog.png" alt="STYLE IT catalog and avatar customisation" width="100%" />
+      <br />
+      <strong>Catalog & avatar customisation</strong>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="./RunwayVoting.png" alt="STYLE IT runway voting interface" width="100%" />
+      <br />
+      <strong>Runway & live voting</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="./ThemeVoting.png" alt="STYLE IT theme voting interface" width="100%" />
+      <br />
+      <strong>Player-driven theme voting</strong>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="./GlobalFits.png" alt="STYLE IT Global Fits outfit discovery" width="100%" />
+      <br />
+      <strong>Global Fits & outfit discovery</strong>
+    </td>
+  </tr>
+</table>
+
+The game combines a full avatar catalog and body editor with a fast fashion round loop, player voting, results, theme selection and a social outfit publishing system.
+
+**Current focus:** improving the speed and clarity of the core loop, polishing desktop and mobile UX, and building systems that can support progression, content updates and long-term retention.
 
 `Roblox Studio` `Luau` `UI/UX` `Product Design` `Game Systems`
 
@@ -38,13 +67,13 @@ The current focus is on making the game feel fast, polished and intuitive on bot
       <p>Roblox development work with <strong>Boho Salon Group</strong>, focused around fashion and role-play experiences.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Systems & Prototypes</h3>
+      <h3>Systems & prototypes</h3>
       <p>Gameplay systems, avatar and inventory architecture, progression loops, tooling and rapid prototypes used to test new ideas.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>UI & Product Design</h3>
+      <h3>UI & product design</h3>
       <p>Responsive Roblox interfaces, onboarding, interaction states, information architecture and mobile-first design.</p>
     </td>
     <td width="50%" valign="top">
