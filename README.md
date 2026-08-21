@@ -183,40 +183,35 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 ## GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Qwacky899&show_icons=true&hide_border=true&bg_color=00000000&title_color=C49A56&text_color=9B9B95&icon_color=C49A56&rank_icon=github&include_all_commits=true" alt="Harry's GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Qwacky899&hide_border=true&background=00000000&ring=C49A56&fire=C49A56&currStreakLabel=C49A56&sideLabels=9B9B95&currStreakNum=F2EEE6&sideNums=F2EEE6&dates=6F6F6A" alt="Harry's GitHub streak" />
+  <img width="58%" src="https://streak-stats.demolab.com?user=Qwacky899&hide_border=true&background=00000000&ring=C49A56&fire=C49A56&currStreakLabel=C49A56&sideLabels=9B9B95&currStreakNum=F2EEE6&sideNums=F2EEE6&dates=6F6F6A" alt="Harry's GitHub streak" />
 </p>
-
-<p align="center"><img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qwacky899&layout=compact&hide_border=true&bg_color=00000000&title_color=C49A56&text_color=9B9B95" alt="Harry's top languages" /></p>
 
 ### Contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" />
-  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" width="100%" />
-</picture>
-
-<sub>The contribution visual is regenerated automatically by GitHub Actions and adapts to light/dark mode.</sub>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" />
+    <img alt="GitHub contribution activity" src="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
 
 ---
 
-## Direction
-
-Right now I'm focused on turning individual projects into a stronger **independent Roblox production pipeline**: better architecture, better tooling, faster iteration and products with a clearer reason for players to return.
-
-<table>
-  <tr>
-    <td width="33%" align="center"><strong>BUILD</strong><br /><sub>systems that hold up</sub></td>
-    <td width="33%" align="center"><strong>ITERATE</strong><br /><sub>until the product feels obvious</sub></td>
-    <td width="33%" align="center"><strong>SHIP</strong><br /><sub>the ideas worth keeping</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <strong>BUILD</strong>
+  &nbsp;&nbsp;→&nbsp;&nbsp;
+  <strong>ITERATE</strong>
+  &nbsp;&nbsp;→&nbsp;&nbsp;
+  <strong>SHIP</strong>
+</p>
 
 <p align="center">
-  <a href="https://qwacky899.github.io/Portfolio/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Qwacky899?tab=repositories">Repositories</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.roblox.com/communities/2868558/Boho-Salon#!/about">Roblox</a>
+  <sub>Building better systems, faster workflows and Roblox products worth returning to.</sub>
+</p>
+
+<p align="center">
+  <a href="https://qwacky899.github.io/Portfolio/"><strong>Portfolio ↗</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Qwacky899?tab=repositories"><strong>Repositories ↗</strong></a>
 </p>
