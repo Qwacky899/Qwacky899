@@ -1,4 +1,4 @@
-![Harry Smith — Building Roblox Games](hero.png)
+![Harry Smith — Building Roblox Games](assets/hero.png)
 
 <p align="center">
   <a href="#featured-work"><strong>Work</strong></a>
