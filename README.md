@@ -1,4 +1,4 @@
-![Harry Smith — Building Roblox Games](assets/hero-banner.jpg)
+![Harry Smith — Building Roblox Games](assets/profile/hero.png)
 
 <p align="center">
   <a href="#featured-work"><strong>Work</strong></a>
@@ -62,7 +62,7 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
     </td>
     <td width="33%" valign="top">
       <strong>RoAgent</strong><br />
-      <sub>Exploring AI-assisted Roblox development, persistent project context and better agent workflows.</sub>
+      <sub>Building persistent project context and stronger AI-assisted Roblox development workflows.</sub>
     </td>
     <td width="33%" valign="top">
       <strong>Production systems</strong><br />
@@ -75,9 +75,9 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
 
 ## Featured work
 
-### STYLE IT <sup><sub>IN DEVELOPMENT</sub></sup>
+![STYLE IT — social fashion Roblox game](assets/profile/style-it-card.svg)
 
-**STYLE IT** is a social fashion game built around avatar customisation, themed rounds, live voting and outfit discovery. I handle the project across **full-stack Roblox development, systems architecture, UI/UX, product direction and launch strategy**.
+**In development.** STYLE IT is a social fashion game built around avatar customisation, themed rounds, live voting and outfit discovery. I handle the project across **full-stack Roblox development, systems architecture, UI/UX, product direction and launch strategy**.
 
 <p align="center">
   <a href="./assets/style-it/catalog.png">
@@ -122,7 +122,40 @@ The game combines a full avatar catalog and body editor with a fast round loop, 
 
 <br />
 
-### ONYX <sup><sub>PERSONAL WEB PROJECT</sub></sup>
+![RoAgent — Roblox developer tooling](assets/profile/roagent-card.svg)
+
+**RoAgent** is a reusable engineering layer for Roblox development that gives an AI coding agent persistent project context, focused Roblox skills, explicit tool boundaries and a repeatable **inspect → understand → change → verify** workflow.
+
+It is designed to connect the tools already used in a serious Roblox project instead of pretending one tool owns everything:
+
+<table>
+  <tr>
+    <td width="25%" align="center"><strong>Repository</strong><br /><sub>persistent source & history</sub></td>
+    <td width="25%" align="center"><strong>Rojo</strong><br /><sub>mapping & sync</sub></td>
+    <td width="25%" align="center"><strong>Studio</strong><br /><sub>runtime & visuals</sub></td>
+    <td width="25%" align="center"><strong>Agent layer</strong><br /><sub>context, skills & evidence</sub></td>
+  </tr>
+</table>
+
+The core idea is simple: **the agent should know the project, know which tool has authority, and verify work against real evidence instead of guessing.**
+
+`Roblox` `Codex` `Rojo` `Studio MCP` `Agent Workflows` `Developer Tooling`
+
+<details>
+  <summary><strong>What RoAgent adds</strong></summary>
+  <br />
+
+- Persistent project context for architecture, terminology, tooling and accepted decisions
+- Reusable Roblox-specific engineering skills
+- Tool-authority rules between repository source, Rojo, Studio and MCP observations
+- Durable project memory that stays evidence-based
+- A repeatable engineering loop built around inspection and verification
+
+</details>
+
+<br />
+
+![ONYX — cinematic media discovery interface](assets/profile/onyx-card.svg)
 
 **ONYX** is a cinematic media-discovery interface I built to explore richer web-app UX beyond Roblox — including personalised browsing, search, watch history, actor profiles and content metadata.
 
