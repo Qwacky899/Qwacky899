@@ -37,18 +37,9 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top">
-      <strong>GAME SYSTEMS</strong><br />
-      <sub>Gameplay architecture, social loops, avatar systems & progression</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <strong>PRODUCT / UI</strong><br />
-      <sub>Interaction design, onboarding, retention loops & mobile-first UX</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <strong>TOOLS / WEB</strong><br />
-      <sub>Developer tooling, web apps, APIs & workflow automation</sub>
-    </td>
+    <td width="33%" align="center" valign="top"><strong>GAME SYSTEMS</strong><br /><sub>Gameplay architecture, social loops, avatar systems & progression</sub></td>
+    <td width="33%" align="center" valign="top"><strong>PRODUCT / UI</strong><br /><sub>Interaction design, onboarding, retention loops & mobile-first UX</sub></td>
+    <td width="33%" align="center" valign="top"><strong>TOOLS / WEB</strong><br /><sub>Developer tooling, web apps, APIs & workflow automation</sub></td>
   </tr>
 </table>
 
@@ -56,18 +47,9 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
 
 <table>
   <tr>
-    <td width="34%" valign="top">
-      <strong>STYLE IT</strong><br />
-      <sub>Taking a social fashion game from polished prototype toward a launch-ready product.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>RoAgent</strong><br />
-      <sub>Building persistent project context and stronger AI-assisted Roblox development workflows.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>Production systems</strong><br />
-      <sub>Building reusable infrastructure that makes future Roblox projects faster to ship and easier to scale.</sub>
-    </td>
+    <td width="34%" valign="top"><strong>STYLE IT</strong><br /><sub>Taking a social fashion game from polished prototype toward a launch-ready product.</sub></td>
+    <td width="33%" valign="top"><strong>RoAgent</strong><br /><sub>Building persistent project context and stronger AI-assisted Roblox development workflows.</sub></td>
+    <td width="33%" valign="top"><strong>Production systems</strong><br /><sub>Building reusable infrastructure that makes future Roblox projects faster to ship and easier to scale.</sub></td>
   </tr>
 </table>
 
@@ -79,32 +61,13 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
 
 **STYLE IT** is a social fashion game built around avatar customisation, themed rounds, live voting and outfit discovery. I handle the project across **full-stack Roblox development, systems architecture, UI/UX, product direction and launch strategy**.
 
-<p align="center">
-  <a href="./assets/style-it/catalog.png">
-    <img src="./assets/style-it/catalog.png" alt="STYLE IT catalog and avatar customisation" width="100%" />
-  </a>
-</p>
+<p align="center"><a href="./assets/style-it/catalog.png"><img src="./assets/style-it/catalog.png" alt="STYLE IT catalog and avatar customisation" width="100%" /></a></p>
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top">
-      <a href="./assets/style-it/runway-voting.png">
-        <img src="./assets/style-it/runway-voting.png" alt="STYLE IT runway voting interface" width="100%" />
-      </a>
-      <br /><strong>Runway & live voting</strong>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="./assets/style-it/theme-voting.png">
-        <img src="./assets/style-it/theme-voting.png" alt="STYLE IT theme voting interface" width="100%" />
-      </a>
-      <br /><strong>Theme selection</strong>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="./assets/style-it/global-fits.png">
-        <img src="./assets/style-it/global-fits.png" alt="STYLE IT Global Fits outfit discovery" width="100%" />
-      </a>
-      <br /><strong>Global Fits</strong>
-    </td>
+    <td width="33%" align="center" valign="top"><a href="./assets/style-it/runway-voting.png"><img src="./assets/style-it/runway-voting.png" alt="STYLE IT runway voting interface" width="100%" /></a><br /><strong>Runway & live voting</strong></td>
+    <td width="33%" align="center" valign="top"><a href="./assets/style-it/theme-voting.png"><img src="./assets/style-it/theme-voting.png" alt="STYLE IT theme voting interface" width="100%" /></a><br /><strong>Theme selection</strong></td>
+    <td width="33%" align="center" valign="top"><a href="./assets/style-it/global-fits.png"><img src="./assets/style-it/global-fits.png" alt="STYLE IT Global Fits outfit discovery" width="100%" /></a><br /><strong>Global Fits</strong></td>
   </tr>
 </table>
 
@@ -112,15 +75,17 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
 
 `Roblox Studio` `Luau` `UI/UX` `Product Design` `Game Systems`
 
-<details>
-  <summary><strong>Technical scope</strong></summary>
-  <br />
-  STYLE IT brings together avatar state, catalog data, responsive interfaces, round orchestration, voting, social publishing, persistence and live-content iteration. The engineering challenge is keeping those systems modular while making the player-facing loop feel simple.
-</details>
+<details><summary><strong>Technical scope</strong></summary><br />STYLE IT brings together avatar state, catalog data, responsive interfaces, round orchestration, voting, social publishing, persistence and live-content iteration. The engineering challenge is keeping those systems modular while making the player-facing loop feel simple.</details>
 
 <br />
 
 ### RoAgent <sup><sub>DEVELOPER TOOLING</sub></sup>
+
+<p align="center">
+  <a href="https://github.com/Qwacky899/RoAgent">
+    <img src="./assets/RoAgent.png" alt="RoAgent — Give your Roblox game an agent that actually knows it" width="100%" />
+  </a>
+</p>
 
 **RoAgent** is a reusable engineering layer for Roblox development that gives an AI coding agent persistent project context, focused Roblox skills, explicit tool boundaries and a repeatable **inspect → understand → change → verify** workflow.
 
@@ -133,21 +98,11 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
   </tr>
 </table>
 
-```text
-Repository ──────┐
-                 ├──► RoAgent ───► Agent workflow
-Rojo ────────────┤      │              │
-                 │      ▼              ▼
-Roblox Studio ───┘   Context       Verification
-```
-
 The core idea is simple: **the agent should know the project, know which tool has authority, and verify work against real evidence instead of guessing.**
 
 `Roblox` `Codex` `Rojo` `Studio MCP` `Agent Workflows` `Developer Tooling`
 
-<details>
-  <summary><strong>What RoAgent adds</strong></summary>
-  <br />
+<details><summary><strong>What RoAgent adds</strong></summary><br />
 
 - Persistent project context for architecture, terminology, tooling and accepted decisions
 - Reusable Roblox-specific engineering skills
@@ -163,26 +118,12 @@ The core idea is simple: **the agent should know the project, know which tool ha
 
 **ONYX** is a cinematic media-discovery interface I built to explore richer web-app UX beyond Roblox — including personalised browsing, search, watch history, actor profiles and content metadata.
 
-<p align="center">
-  <a href="./assets/onyx/home.png">
-    <img src="./assets/onyx/home.png" alt="ONYX home and media-discovery interface" width="100%" />
-  </a>
-</p>
+<p align="center"><a href="./assets/onyx/home.png"><img src="./assets/onyx/home.png" alt="ONYX home and media-discovery interface" width="100%" /></a></p>
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="./assets/onyx/search.png">
-        <img src="./assets/onyx/search.png" alt="ONYX search interface" width="100%" />
-      </a>
-      <br /><strong>Search & recent activity</strong>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="./assets/onyx/actor-profile.png">
-        <img src="./assets/onyx/actor-profile.png" alt="ONYX actor profile interface" width="100%" />
-      </a>
-      <br /><strong>Profiles & metadata</strong>
-    </td>
+    <td width="50%" align="center" valign="top"><a href="./assets/onyx/search.png"><img src="./assets/onyx/search.png" alt="ONYX search interface" width="100%" /></a><br /><strong>Search & recent activity</strong></td>
+    <td width="50%" align="center" valign="top"><a href="./assets/onyx/actor-profile.png"><img src="./assets/onyx/actor-profile.png" alt="ONYX actor profile interface" width="100%" /></a><br /><strong>Profiles & metadata</strong></td>
   </tr>
 </table>
 
@@ -196,24 +137,12 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Game systems</h3>
-      <p>Round orchestration, inventories, avatar systems, progression, persistence, social mechanics and reusable service architecture.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>UI & product design</h3>
-      <p>Responsive interfaces, onboarding, interaction states, information hierarchy, feedback loops and mobile-first Roblox UX.</p>
-    </td>
+    <td width="50%" valign="top"><h3>Game systems</h3><p>Round orchestration, inventories, avatar systems, progression, persistence, social mechanics and reusable service architecture.</p></td>
+    <td width="50%" valign="top"><h3>UI & product design</h3><p>Responsive interfaces, onboarding, interaction states, information hierarchy, feedback loops and mobile-first Roblox UX.</p></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Developer tooling</h3>
-      <p>Workflows and tools around source control, Rojo, AI-assisted development, project context and production efficiency.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Prototypes → products</h3>
-      <p>Rapidly testing loops and interfaces, then rebuilding the ideas that work into maintainable systems designed to survive real players.</p>
-    </td>
+    <td width="50%" valign="top"><h3>Developer tooling</h3><p>Workflows and tools around source control, Rojo, AI-assisted development, project context and production efficiency.</p></td>
+    <td width="50%" valign="top"><h3>Prototypes → products</h3><p>Rapidly testing loops and interfaces, then rebuilding the ideas that work into maintainable systems designed to survive real players.</p></td>
   </tr>
 </table>
 
@@ -223,9 +152,7 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 - **Systems & prototypes** — gameplay experiments, avatar/inventory architecture, progression loops and internal tooling.
 - **Portfolio archive** — scripting, environments, assets, interfaces and development experiments across older work.
 
-<p align="center">
-  <a href="https://qwacky899.github.io/Portfolio/"><strong>Explore the full portfolio →</strong></a>
-</p>
+<p align="center"><a href="https://qwacky899.github.io/Portfolio/"><strong>Explore the full portfolio →</strong></a></p>
 
 ---
 
@@ -260,9 +187,7 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
   <img height="165" src="https://streak-stats.demolab.com?user=Qwacky899&hide_border=true&background=00000000&ring=C49A56&fire=C49A56&currStreakLabel=C49A56&sideLabels=9B9B95&currStreakNum=F2EEE6&sideNums=F2EEE6&dates=6F6F6A" alt="Harry's GitHub streak" />
 </p>
 
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qwacky899&layout=compact&hide_border=true&bg_color=00000000&title_color=C49A56&text_color=9B9B95" alt="Harry's top languages" />
-</p>
+<p align="center"><img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qwacky899&layout=compact&hide_border=true&bg_color=00000000&title_color=C49A56&text_color=9B9B95" alt="Harry's top languages" /></p>
 
 ### Contributions
 
