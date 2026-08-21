@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./assets/hero.svg" alt="Harry Smith — Roblox Developer & Product Builder" width="100%" />
-</p>
+![Harry Smith — Building Roblox Games](assets/hero-banner.jpg)
 
 <p align="center">
   <a href="#featured-work"><strong>Work</strong></a>
@@ -16,36 +14,39 @@
 
 <p align="center">
   <a href="https://qwacky899.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=githubpages&logoColor=67E8F9" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-171717?style=for-the-badge&logo=githubpages&logoColor=C49A56" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/Qwacky899?tab=repositories">
+    <img src="https://img.shields.io/badge/REPOSITORIES-171717?style=for-the-badge&logo=github&logoColor=F2EEE6" alt="Repositories" />
   </a>
   <a href="https://www.roblox.com/communities/2868558/Boho-Salon#!/about">
-    <img src="https://img.shields.io/badge/BOHO_SALON-111827?style=for-the-badge&logo=roblox&logoColor=F472B6" alt="Boho Salon" />
+    <img src="https://img.shields.io/badge/ROBLOX-171717?style=for-the-badge&logo=roblox&logoColor=C49A56" alt="Roblox" />
   </a>
-  <img src="https://img.shields.io/badge/STATUS-BUILDING-111827?style=for-the-badge&labelColor=111827&color=111827" alt="Status: Building" />
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-171717?style=for-the-badge&labelColor=171717&color=6B5430" alt="Status: Building" />
 </p>
 
 ---
 
 ## About
 
-I'm **Harry Smith** (`Qwacky899`), a UK-based Roblox developer and product builder focused on the point where **engineering, game design and product thinking** meet.
+I'm **Harry Smith** (`Qwacky899`), a UK-based Roblox developer and product builder working where **engineering, game design and product thinking** meet.
 
 I build complete experiences rather than isolated scripts: gameplay systems, responsive UI, avatar tooling, progression, social features, web products, internal tools and the infrastructure needed to keep all of it maintainable as a project grows.
 
-> **The goal:** make technically solid products that also feel obvious, fast and polished to the person actually using them.
+> **The goal:** technically solid products that feel obvious, fast and polished to the person actually using them.
 
 <table>
   <tr>
     <td width="33%" align="center" valign="top">
-      <strong>🎮 Roblox</strong><br />
-      <sub>Gameplay systems, social loops, avatar tech & production architecture</sub>
+      <strong>GAME SYSTEMS</strong><br />
+      <sub>Gameplay architecture, social loops, avatar systems & progression</sub>
     </td>
     <td width="33%" align="center" valign="top">
-      <strong>✦ Product & UI</strong><br />
+      <strong>PRODUCT / UI</strong><br />
       <sub>Interaction design, onboarding, retention loops & mobile-first UX</sub>
     </td>
     <td width="33%" align="center" valign="top">
-      <strong>⌘ Tools & Web</strong><br />
+      <strong>TOOLS / WEB</strong><br />
       <sub>Developer tooling, web apps, APIs & workflow automation</sub>
     </td>
   </tr>
@@ -114,7 +115,7 @@ The game combines a full avatar catalog and body editor with a fast round loop, 
 `Roblox Studio` `Luau` `UI/UX` `Product Design` `Game Systems`
 
 <details>
-  <summary><strong>What makes this project interesting technically</strong></summary>
+  <summary><strong>Technical scope</strong></summary>
   <br />
   STYLE IT touches several systems that become difficult once they have to work together: avatar state, catalog data, responsive interfaces, round orchestration, voting, social publishing, persistence and content iteration. A large part of the work is keeping those systems modular while making the player-facing loop feel simple.
 </details>
@@ -195,31 +196,35 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 
 ### Roblox & design
 
-![Roblox Studio](https://img.shields.io/badge/Roblox_Studio-111827?style=flat-square&logo=robloxstudio&logoColor=FFFFFF)
-![Luau / Lua](https://img.shields.io/badge/Luau_/_Lua-111827?style=flat-square&logo=lua&logoColor=67E8F9)
-![Blender](https://img.shields.io/badge/Blender-111827?style=flat-square&logo=blender&logoColor=F472B6)
-![Figma](https://img.shields.io/badge/Figma-111827?style=flat-square&logo=figma&logoColor=A78BFA)
-![Rojo](https://img.shields.io/badge/Rojo-111827?style=flat-square&logo=roblox&logoColor=F472B6)
+![Roblox Studio](https://img.shields.io/badge/Roblox_Studio-171717?style=flat-square&logo=robloxstudio&logoColor=F2EEE6)
+![Luau / Lua](https://img.shields.io/badge/Luau_/_Lua-171717?style=flat-square&logo=lua&logoColor=C49A56)
+![Blender](https://img.shields.io/badge/Blender-171717?style=flat-square&logo=blender&logoColor=C49A56)
+![Figma](https://img.shields.io/badge/Figma-171717?style=flat-square&logo=figma&logoColor=F2EEE6)
+![Rojo](https://img.shields.io/badge/Rojo-171717?style=flat-square&logo=roblox&logoColor=C49A56)
 
 ### Software & web
 
-![VS Code](https://img.shields.io/badge/VS_Code-111827?style=flat-square&logo=visualstudiocode&logoColor=67E8F9)
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F472B6)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=FFFFFF)
-![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=67E8F9)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=A78BFA)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=FDE68A)
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=67E8F9)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=F472B6)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=A78BFA)
+![VS Code](https://img.shields.io/badge/VS_Code-171717?style=flat-square&logo=visualstudiocode&logoColor=F2EEE6)
+![Git](https://img.shields.io/badge/Git-171717?style=flat-square&logo=git&logoColor=C49A56)
+![GitHub](https://img.shields.io/badge/GitHub-171717?style=flat-square&logo=github&logoColor=F2EEE6)
+![Python](https://img.shields.io/badge/Python-171717?style=flat-square&logo=python&logoColor=C49A56)
+![TypeScript](https://img.shields.io/badge/TypeScript-171717?style=flat-square&logo=typescript&logoColor=F2EEE6)
+![JavaScript](https://img.shields.io/badge/JavaScript-171717?style=flat-square&logo=javascript&logoColor=C49A56)
+![React](https://img.shields.io/badge/React-171717?style=flat-square&logo=react&logoColor=F2EEE6)
+![HTML5](https://img.shields.io/badge/HTML5-171717?style=flat-square&logo=html5&logoColor=C49A56)
+![CSS3](https://img.shields.io/badge/CSS3-171717?style=flat-square&logo=css3&logoColor=F2EEE6)
 
 ---
 
 ## GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Qwacky899&show_icons=true&hide_border=true&bg_color=00000000&title_color=A78BFA&text_color=8B949E&icon_color=67E8F9&rank_icon=github&include_all_commits=true" alt="Harry's GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Qwacky899&hide_border=true&background=00000000&ring=A78BFA&fire=F472B6&currStreakLabel=67E8F9&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=6E7681" alt="Harry's GitHub streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Qwacky899&show_icons=true&hide_border=true&bg_color=00000000&title_color=C49A56&text_color=9B9B95&icon_color=C49A56&rank_icon=github&include_all_commits=true" alt="Harry's GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=Qwacky899&hide_border=true&background=00000000&ring=C49A56&fire=C49A56&currStreakLabel=C49A56&sideLabels=9B9B95&currStreakNum=F2EEE6&sideNums=F2EEE6&dates=6F6F6A" alt="Harry's GitHub streak" />
+</p>
+
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qwacky899&layout=compact&hide_border=true&bg_color=00000000&title_color=C49A56&text_color=9B9B95" alt="Harry's top languages" />
 </p>
 
 ### Contributions
@@ -227,10 +232,10 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" width="100%" />
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Qwacky899/Qwacky899/output/github-snake.svg" width="100%" />
 </picture>
 
-<sub>The contribution visual is generated automatically by GitHub Actions.</sub>
+<sub>The contribution visual is regenerated automatically by GitHub Actions and adapts to light/dark mode.</sub>
 
 ---
 
@@ -238,9 +243,15 @@ The project focuses on **information hierarchy, cinematic presentation, responsi
 
 Right now I'm focused on turning individual projects into a stronger **independent Roblox production pipeline**: better architecture, better tooling, faster iteration and products with a clearer reason for players to return.
 
+<table>
+  <tr>
+    <td width="33%" align="center"><strong>BUILD</strong><br /><sub>systems that hold up</sub></td>
+    <td width="33%" align="center"><strong>ITERATE</strong><br /><sub>until the product feels obvious</sub></td>
+    <td width="33%" align="center"><strong>SHIP</strong><br /><sub>the ideas worth keeping</sub></td>
+  </tr>
+</table>
+
 <p align="center">
-  <strong>Build systems. Test ideas. Ship the ones worth keeping.</strong>
-  <br /><br />
   <a href="https://qwacky899.github.io/Portfolio/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Qwacky899?tab=repositories">Repositories</a>

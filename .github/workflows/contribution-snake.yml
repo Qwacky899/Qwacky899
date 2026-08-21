@@ -22,8 +22,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?color_snake=#7C3AED&color_dots=#F6F8FA,#E9D5FF,#C4B5FD,#A78BFA,#67E8F9
-            dist/github-snake-dark.svg?color_snake=#67E8F9&color_dots=#0D1117,#1B2130,#4338CA,#A855F7,#F472B6
+            dist/github-snake.svg?color_snake=#B58C49&color_dots=#F6F8FA,#E8E3D8,#C9B995,#9E8051,#6B5430
+            dist/github-snake-dark.svg?color_snake=#C49A56&color_dots=#0D0D0D,#201F1C,#4A4134,#80683F,#C49A56
 
       - name: Publish generated assets
         uses: peaceiris/actions-gh-pages@v4
