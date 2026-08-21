@@ -1,56 +1,79 @@
-<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Harry Smith — Roblox Developer</title>
-  <desc id="desc">Minimal midnight banner with violet, pink and cyan accents.</desc>
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Harry Smith — Roblox Developer & Product Builder</title>
+  <desc id="desc">Dark developer profile banner with violet, pink and cyan accents, a technical grid and a compact status panel.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080B14"/>
-      <stop offset="0.55" stop-color="#11162A"/>
-      <stop offset="1" stop-color="#090C16"/>
+    <linearGradient id="bg" x1="40" y1="20" x2="1360" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.48" stop-color="#101526"/>
+      <stop offset="1" stop-color="#070A12"/>
     </linearGradient>
-    <linearGradient id="accent" x1="520" y1="70" x2="1140" y2="290" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#A78BFA"/>
-      <stop offset="0.5" stop-color="#F472B6"/>
+      <stop offset="0.48" stop-color="#F472B6"/>
       <stop offset="1" stop-color="#67E8F9"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1115 82) rotate(132) scale(300 360)">
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 64) rotate(130) scale(430 420)">
       <stop stop-color="#8B5CF6" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1300 310) rotate(-145) scale(250 320)">
-      <stop stop-color="#22D3EE" stop-opacity="0.16"/>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1320 390) rotate(-145) scale(340 300)">
+      <stop stop-color="#22D3EE" stop-opacity="0.15"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.035"/>
     </pattern>
-    <clipPath id="clip"><rect width="1400" height="360" rx="30"/></clipPath>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <clipPath id="clip"><rect width="1400" height="420" rx="32"/></clipPath>
   </defs>
 
   <g clip-path="url(#clip)">
-    <rect width="1400" height="360" rx="30" fill="url(#bg)"/>
-    <rect width="1400" height="360" fill="url(#grid)"/>
-    <ellipse cx="1110" cy="80" rx="330" ry="230" fill="url(#glow1)"/>
-    <ellipse cx="1300" cy="320" rx="280" ry="210" fill="url(#glow2)"/>
+    <rect width="1400" height="420" fill="url(#bg)"/>
+    <rect width="1400" height="420" fill="url(#grid)"/>
+    <ellipse cx="1110" cy="70" rx="430" ry="300" fill="url(#violetGlow)"/>
+    <ellipse cx="1320" cy="390" rx="340" ry="240" fill="url(#cyanGlow)"/>
 
-    <g transform="translate(76 66)">
-      <rect width="152" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.10"/>
-      <circle cx="18" cy="15" r="4" fill="#67E8F9"/>
-      <text x="31" y="20" fill="#CCD5EE" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="1.2">QWACKY899</text>
+    <path d="M0 58H1400" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <path d="M1000 0V420" stroke="#FFFFFF" stroke-opacity="0.045"/>
 
-      <text x="0" y="102" fill="#FFFFFF" font-size="58" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" letter-spacing="-1.6">I BUILD ROBLOX GAMES.</text>
-      <rect x="0" y="128" width="520" height="4" rx="2" fill="url(#accent)"/>
-      <text x="0" y="177" fill="#AFB9D2" font-size="20" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500">Systems · UI/UX · Web products · Full-stack development</text>
-      <text x="0" y="219" fill="#7F8AA8" font-size="15" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="1.0">HARRY SMITH</text>
+    <g transform="translate(74 58)">
+      <rect width="156" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <circle cx="18" cy="16" r="4.5" fill="#67E8F9"/>
+      <circle cx="18" cy="16" r="9" fill="#67E8F9" fill-opacity="0.14" filter="url(#softGlow)"/>
+      <text x="32" y="21" fill="#D7DDF0" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="1.4">QWACKY899</text>
+
+      <text x="0" y="112" fill="#FFFFFF" font-size="61" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" letter-spacing="-2">BUILDING EXPERIENCES</text>
+      <text x="0" y="177" fill="#FFFFFF" font-size="61" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" letter-spacing="-2">THAT FEEL FINISHED.</text>
+      <rect x="0" y="204" width="610" height="4" rx="2" fill="url(#accent)"/>
+
+      <text x="0" y="250" fill="#B3BDD5" font-size="19" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500">Roblox development · systems · UI/UX · product · web</text>
+      <text x="0" y="291" fill="#7E8AA8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="1.35">HARRY SMITH  /  ROBLOX DEVELOPER &amp; PRODUCT BUILDER</text>
     </g>
 
-    <g transform="translate(1040 70)" opacity="0.95">
-      <path d="M110 0L220 64V190L110 254L0 190V64L110 0Z" stroke="url(#accent)" stroke-opacity="0.50" stroke-width="2"/>
-      <path d="M0 64L110 128L220 64M110 128V254" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5"/>
-      <path d="M38 85L110 43L182 85L110 127L38 85Z" fill="#A78BFA" fill-opacity="0.07" stroke="#C4B5FD" stroke-opacity="0.24"/>
-      <circle cx="110" cy="128" r="5" fill="#F472B6"/>
-      <circle cx="220" cy="64" r="4" fill="#67E8F9"/>
-      <circle cx="0" cy="190" r="4" fill="#A78BFA"/>
+    <g transform="translate(1044 76)">
+      <rect width="282" height="268" rx="22" fill="#0B1020" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <rect x="18" y="18" width="246" height="34" rx="10" fill="#FFFFFF" fill-opacity="0.045"/>
+      <circle cx="35" cy="35" r="4" fill="#F472B6"/>
+      <text x="48" y="40" fill="#AEB8D0" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700">developer.status</text>
+
+      <text x="24" y="88" fill="#68738E" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">ROLE</text>
+      <text x="24" y="111" fill="#EEF2FF" font-size="16" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700">Roblox Developer</text>
+
+      <text x="24" y="148" fill="#68738E" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">FOCUS</text>
+      <text x="24" y="171" fill="#C4B5FD" font-size="14" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">systems / ui / product</text>
+
+      <text x="24" y="208" fill="#68738E" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">STATUS</text>
+      <circle cx="30" cy="234" r="5" fill="#67E8F9"/>
+      <text x="44" y="239" fill="#DDFBFF" font-size="14" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-weight="700">building</text>
+
+      <path d="M238 76L258 88V112L238 124L218 112V88L238 76Z" stroke="url(#accent)" stroke-width="1.4" stroke-opacity="0.7"/>
+      <path d="M218 88L238 100L258 88M238 100V124" stroke="#FFFFFF" stroke-opacity="0.16"/>
     </g>
+
+    <rect x="0" y="414" width="1400" height="6" fill="url(#accent)" opacity="0.75"/>
   </g>
-  <rect x="0.75" y="0.75" width="1398.5" height="358.5" rx="29.25" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+
+  <rect x="0.75" y="0.75" width="1398.5" height="418.5" rx="31.25" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
 </svg>
