@@ -75,9 +75,9 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
 
 ## Featured work
 
-![STYLE IT — social fashion Roblox game](assets/profile/style-it-card.svg)
+### STYLE IT <sup><sub>IN DEVELOPMENT</sub></sup>
 
-**In development.** STYLE IT is a social fashion game built around avatar customisation, themed rounds, live voting and outfit discovery. I handle the project across **full-stack Roblox development, systems architecture, UI/UX, product direction and launch strategy**.
+**STYLE IT** is a social fashion game built around avatar customisation, themed rounds, live voting and outfit discovery. I handle the project across **full-stack Roblox development, systems architecture, UI/UX, product direction and launch strategy**.
 
 <p align="center">
   <a href="./assets/style-it/catalog.png">
@@ -108,8 +108,6 @@ I build complete experiences rather than isolated scripts: gameplay systems, res
   </tr>
 </table>
 
-The game combines a full avatar catalog and body editor with a fast round loop, player voting, results, theme selection and a social outfit-publishing system.
-
 **Current focus:** shortening the path from join → dress → runway, polishing desktop/mobile UX, and building systems that can support progression, live content and long-term retention.
 
 `Roblox Studio` `Luau` `UI/UX` `Product Design` `Game Systems`
@@ -117,16 +115,14 @@ The game combines a full avatar catalog and body editor with a fast round loop, 
 <details>
   <summary><strong>Technical scope</strong></summary>
   <br />
-  STYLE IT touches several systems that become difficult once they have to work together: avatar state, catalog data, responsive interfaces, round orchestration, voting, social publishing, persistence and content iteration. A large part of the work is keeping those systems modular while making the player-facing loop feel simple.
+  STYLE IT brings together avatar state, catalog data, responsive interfaces, round orchestration, voting, social publishing, persistence and live-content iteration. The engineering challenge is keeping those systems modular while making the player-facing loop feel simple.
 </details>
 
 <br />
 
-![RoAgent — Roblox developer tooling](assets/profile/roagent-card.svg)
+### RoAgent <sup><sub>DEVELOPER TOOLING</sub></sup>
 
 **RoAgent** is a reusable engineering layer for Roblox development that gives an AI coding agent persistent project context, focused Roblox skills, explicit tool boundaries and a repeatable **inspect → understand → change → verify** workflow.
-
-It is designed to connect the tools already used in a serious Roblox project instead of pretending one tool owns everything:
 
 <table>
   <tr>
@@ -136,6 +132,14 @@ It is designed to connect the tools already used in a serious Roblox project ins
     <td width="25%" align="center"><strong>Agent layer</strong><br /><sub>context, skills & evidence</sub></td>
   </tr>
 </table>
+
+```text
+Repository ──────┐
+                 ├──► RoAgent ───► Agent workflow
+Rojo ────────────┤      │              │
+                 │      ▼              ▼
+Roblox Studio ───┘   Context       Verification
+```
 
 The core idea is simple: **the agent should know the project, know which tool has authority, and verify work against real evidence instead of guessing.**
 
@@ -155,7 +159,7 @@ The core idea is simple: **the agent should know the project, know which tool ha
 
 <br />
 
-![ONYX — cinematic media discovery interface](assets/profile/onyx-card.svg)
+### ONYX <sup><sub>WEB PROJECT</sub></sup>
 
 **ONYX** is a cinematic media-discovery interface I built to explore richer web-app UX beyond Roblox — including personalised browsing, search, watch history, actor profiles and content metadata.
 
